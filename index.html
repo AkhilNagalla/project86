@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="new_image()">
+	<center>
+		<br><br>
+		<canvas width="600" height="400" id="myCanvas">
+		
+		</canvas>
+		<img id="myImage" width="0" height="0" src="https://c4.wallpaperflare.com/wallpaper/556/119/769/happy-birthday-cake-and-candles-wallpaper-preview.jpg" alt="Borthday Image">
+
+		<br>
+		<button class="btn btn-warning btn-lg" onclick ="playSound()" type = "button">Play Birthday Song</button>
+		<button class="btn btn-warning btn-lg" onclick ="pauseSound()" type = "button">Pause Song</button>
+	</center>
+	<audio id="myAudio" src="/bdayaudio.mp3"></audio>
+</body>
+
+<script src="main.js"></script>
+
+
+
+</html>
+
+
+
